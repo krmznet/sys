@@ -5,7 +5,6 @@ function zeroShortCode(e, t, a) {
     }
     return !1
 }
-
 function darkModeLogo(e) {
     $("[data-dark-src]").each(function() {
         var t = $(this),
