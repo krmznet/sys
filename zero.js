@@ -1,4 +1,3 @@
-//<![CDATA[
 function zeroShortCode(e, t, a) {
     for (var s = e.split("$"), r = /[^{\}]+(?=})/g, i = 0; i < s.length; i++) {
         var o = s[i].split("=");
@@ -546,5 +545,3 @@ fixedMenu = "undefined" == typeof fixedMenu || fixedMenu, viewAllText = "undefin
         })
     })
 });
-document.onkeydown=function(){switch(event.keyCode){case 116:return event.returnValue=!1,event.keyCode=0,!1;case 82:if(event.ctrlKey)return event.returnValue=!1,event.keyCode=0,!1}};
-//]]>
